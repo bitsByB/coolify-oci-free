@@ -9,7 +9,7 @@ locals {
       ocpus         = var.ocpus
     }
     source_details = {
-      source_id   = var.source_image_id
+      source_id   = var.instance_image_id
       source_type = "image"
     }
     availability_config = {
