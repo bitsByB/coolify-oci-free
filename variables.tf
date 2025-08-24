@@ -49,7 +49,13 @@ variable "availability_domain_main" {
   type        = string
 }
 
+Terraform
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+
+    
 variable "availability_domain_workers" {
   description = "Availability domain for coolify-worker instances. Find it Core Infrastructure → Compute → Instances → Availability domain (left menu). For example: WBJv:EU-FRANKFURT-1-AD-2"
   type        = string
+  default     = null
 }
